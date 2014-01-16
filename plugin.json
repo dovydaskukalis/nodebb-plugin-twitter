@@ -1,0 +1,13 @@
+{
+	"id": "nodebb-plugin-twitter",
+	"name": "NodeBB Twitter Embed Plugin",
+	"description": "NodeBB Plugin that allows users to embed tweets inline in their posts.",
+	"url": "https://github.com/psychobunny/nodebb-plugin-youtube",
+	"library": "./library.js",
+	"hooks": [
+	{ "hook": "filter:post.parse", "method": "parse", "callbacked": true, "priority": 6 },
+	 { "hook": "filter:header.build", "method": "addNavigation", "callbacked": false },
+	{ "hook": "filter:scripts.get", "method": "addScripts", "callbacked": false }
+	],
+	"staticDir": "./public"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "nodebb-plugin-twitter",
+  "version": "0.0.1",
+  "description": "NodeBB Plugin that allows users to embed tweets inline in their posts",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dovydaskukalis/nodebb-plugin-twitter"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "twitter",
+    "embed",
+    "tweet"
+  ],
+  "author": {
+    "name": "Dovydas",
+    "email": "dovydas.kukalis@gmail.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/dovydaskukalis/nodebb-plugin-twitter/issues"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "_id": "nodebb-plugin-twitter@0.0.1",
+  "_from": "nodebb-plugin-twitter@0.0.1"
+}
