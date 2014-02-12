@@ -10,6 +10,6 @@
 	{ "hook": "filter:scripts.get", "method": "addScripts", "callbacked": false }
 	],
 	"staticDirs": {
-		"public": "public"
+		"twitter": "public"
 	}
 }
