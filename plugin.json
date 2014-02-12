@@ -6,8 +6,10 @@
 	"library": "./library.js",
 	"hooks": [
 	{ "hook": "filter:post.parse", "method": "parse", "callbacked": true, "priority": 6 },
-	 { "hook": "filter:header.build", "method": "addNavigation", "callbacked": false },
+	{ "hook": "filter:header.build", "method": "addNavigation", "callbacked": false },
 	{ "hook": "filter:scripts.get", "method": "addScripts", "callbacked": false }
 	],
-	"staticDir": "./public"
+	"staticDirs": {
+		"public": "public"
+	}
 }
