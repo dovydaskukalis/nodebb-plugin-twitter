@@ -18,7 +18,7 @@
             custom_header.navigation.push({
                 "class": "hidden",
                 "route": "",
-                "text": '<script language="javascript" src="http://platform.twitter.com/widgets.js"></script>'
+                "text": '<script language="javascript" src="//platform.twitter.com/widgets.js"></script>'
             });
 
             return custom_header;

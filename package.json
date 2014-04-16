@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-twitter",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "NodeBB Plugin that allows users to embed tweets inline in their posts",
   "main": "library.js",
   "scripts": {
@@ -27,7 +27,7 @@
   },
   "readme": "# NodeBB Twitter Plugin\r\n\r\nThis NodeBB plugin allows users to embed tweets inline in their posts.\r\n\r\n## Installation\r\n\r\n    npm install nodebb-plugin-twitter\r\n\r\n## Using\r\n\r\nAll tweet URLs for example https://twitter.com/NodeBB/status/422901451896025089 will be automatically parsed as embedded tweet.\r\n\r\nYou can get tweet URL by clicking on tweet's time and copying page URL in your browser.\r\n![](http://i.imgur.com/ZkF0Mig.png) \r\n\r\n## Screenshots\r\n\r\n![twitter-plugin.png](http://i.imgur.com/8raiDZj.png) \r\n",
   "readmeFilename": "README.md",
-  "_id": "nodebb-plugin-twitter@0.0.4",
+  "_id": "nodebb-plugin-twitter@0.0.5",
   "_from": "nodebb-plugin-twitter@",
   "homepage": "https://github.com/dovydaskukalis/nodebb-plugin-twitter"
 }
