@@ -5,8 +5,8 @@
 	"url": "https://github.com/dovydaskukalis/nodebb-plugin-twitter",
 	"library": "./library.js",
 	"hooks": [
-		{ "hook": "filter:post.parse", "method": "parse", "callbacked": true, "priority": 6 },
-		{ "hook": "filter:header.build", "method": "addNavigation", "callbacked": false }
+        { "hook": "filter:post.parse", "method": "parse", "priority": 6 },
+        { "hook": "filter:header.build", "method": "init.global.addNavigation" }
 	],
 	"scripts": [
 		"public/main.js"
