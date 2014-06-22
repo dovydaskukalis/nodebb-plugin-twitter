@@ -1,4 +1,4 @@
-(function(module) {
+ (function(module) {
 	"use strict";
 
 	var Twitter = {},
@@ -14,15 +14,19 @@
 		callback(null, postContent);
 	};
 
-	Twitter.addNavigation = function(custom_header, callback) {
-            custom_header.navigation.push({
-                "class": "hidden",
-                "route": "",
-                "text": '<script language="javascript" src="//platform.twitter.com/widgets.js"></script>'
-            });
+	Twitter.init = {
+        global: {
+            addNavigation: function(custom_header, callback) {
+                        custom_header.navigation.push({
+                        class: 'hidden',
+                        route: "",
+                        text: '<script language="javascript" src="//platform.twitter.com/widgets.js"></script>'
+                    });
 
-            return custom_header;
-        },
+                callback(null, custom_header);
+            }
+        }
+    },
 
 	module.exports = Twitter;
 }(module));
