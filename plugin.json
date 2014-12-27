@@ -6,7 +6,7 @@
 	"library": "./library.js",
 	"hooks": [
         { "hook": "filter:header.build", "method": "init.global.addNavigation" },
-        { "hook": "filter:post.parse", "method": "parse", "priority": 6 }
+        { "hook": "filter:parse.post", "method": "parse", "priority": 6 }
 	],
 	"scripts": [
 		"public/main.js"
