@@ -1,33 +1,38 @@
 {
   "name": "nodebb-plugin-twitter",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "NodeBB Plugin that allows users to embed tweets inline in their posts",
   "main": "library.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+	"test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/dovydaskukalis/nodebb-plugin-twitter"
+	"type": "git",
+	"url": "https://github.com/dovydaskukalis/nodebb-plugin-twitter"
   },
   "keywords": [
-    "nodebb",
-    "plugin",
-    "twitter",
-    "embed",
-    "tweet"
+	"nodebb",
+	"plugin",
+	"twitter",
+	"embed",
+	"tweet"
   ],
   "author": {
-    "name": "Dovydas",
-    "email": "dovydas.kukalis@gmail.com"
+	"name": "Dovydas",
+	"email": "dovydas.kukalis@gmail.com"
   },
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/dovydaskukalis/nodebb-plugin-twitter/issues"
+	"url": "https://github.com/dovydaskukalis/nodebb-plugin-twitter/issues"
+  },
+  "nbbpm": {
+	"compatibility": "^0.7.0"
   },
   "readme": "# NodeBB Twitter Plugin\r\n\r\nThis NodeBB plugin allows users to embed tweets inline in their posts.\r\n\r\n## Installation\r\n\r\n    npm install nodebb-plugin-twitter\r\n\r\n## Using\r\n\r\nAll tweet URLs for example https://twitter.com/NodeBB/status/422901451896025089 will be automatically parsed as embedded tweet.\r\n\r\nYou can get tweet URL by clicking on tweet's time and copying page URL in your browser.\r\n![](http://i.imgur.com/ZkF0Mig.png) \r\n\r\n## Screenshots\r\n\r\n![twitter-plugin.png](http://i.imgur.com/8raiDZj.png) \r\n",
   "readmeFilename": "README.md",
-  "_id": "nodebb-plugin-twitter@0.0.9",
+  "_id": "nodebb-plugin-twitter@0.0.10",
   "_from": "nodebb-plugin-twitter@",
-  "homepage": "https://github.com/dovydaskukalis/nodebb-plugin-twitter"
+  "homepage": "https://github.com/dovydaskukalis/nodebb-plugin-twitter",
+  "gitHead": "044b6f54513ab289489472786687d54aa9ad497f",
+  "_shasum": "204cd9a04df923775833e837367039de354d4c39"
 }
