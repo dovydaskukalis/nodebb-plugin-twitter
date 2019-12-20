@@ -2,6 +2,8 @@
 
 This NodeBB plugin allows users to embed tweets inline in their posts.
 
+This repository is a fork of https://github.com/dovydaskukalis/nodebb-plugin-twitter, and is now the official repository for the `nodebb-plugin-twitter` package on npm.
+
 ## Installation
 
 	npm install nodebb-plugin-twitter
@@ -15,4 +17,4 @@ You can get tweet URL by clicking on tweet's time and copying page URL in your b
 
 ## Screenshots
 
-![twitter-plugin.png](http://i.imgur.com/sTBEVrK.png) 
+![twitter-plugin.png](http://i.imgur.com/sTBEVrK.png)

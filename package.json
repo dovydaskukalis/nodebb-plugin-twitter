@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/dovydaskukalis/nodebb-plugin-twitter"
+        "url": "https://github.com/nodebb-community/nodebb-plugin-twitter"
     },
     "keywords": [
         "nodebb",
@@ -23,7 +23,7 @@
     },
     "license": "BSD-2-Clause",
     "bugs": {
-        "url": "https://github.com/dovydaskukalis/nodebb-plugin-twitter/issues"
+        "url": "https://github.com/nodebb-community/nodebb-plugin-twitter/issues"
     },
     "nbbpm": {
         "compatibility": "^0.7.0"
@@ -32,7 +32,7 @@
     "readmeFilename": "README.md",
     "_id": "nodebb-plugin-twitter@0.0.10",
     "_from": "nodebb-plugin-twitter@",
-    "homepage": "https://github.com/dovydaskukalis/nodebb-plugin-twitter",
+    "homepage": "https://github.com/nodebb-community/nodebb-plugin-twitter",
     "gitHead": "044b6f54513ab289489472786687d54aa9ad497f",
     "_shasum": "204cd9a04df923775833e837367039de354d4c39"
 }
