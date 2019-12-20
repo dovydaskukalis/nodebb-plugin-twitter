@@ -12,13 +12,11 @@ $(document).ready(function () {
 	document.head.appendChild(scriptEl);
 
 	function enhanceEmbed() {
-		console.log('loadin\'');
 		var target = $('ul[component="topic"]').get(0);
 		twttr.widgets.load(target);
 	}
 
 	$(window).on('action:posts.loaded action:topic.loaded', function () {
-		console.log('posts loaded');
 		setTimeout(enhanceEmbed, window.twttr ? 0 : 1000);
 	});
 });
