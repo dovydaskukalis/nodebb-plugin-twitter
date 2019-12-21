@@ -1,3 +1,7 @@
+# NOTE
+
+THIS REPO IS NO LONGER MAINTAINED. PLEASE USE https://github.com/nodebb-community/nodebb-plugin-twitter. 
+
 # NodeBB Twitter Plugin
 
 This NodeBB plugin allows users to embed tweets inline in their posts.
